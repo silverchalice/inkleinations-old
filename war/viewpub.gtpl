@@ -52,10 +52,12 @@ Released   : 20110306
 
 					<table>
 					<tr>
+					    <th>Cover</th>
 						<th>Title</th>
 						<th>Author</th>
 					  </tr>
 					 <tr>
+					    <td><img src="/image.groovy?key=${publication.coverKey}" height="347" width="260" /></td>
 						<td>${publication.title} </td>
 						<td>${publication.author}</td>
 					  </tr>
