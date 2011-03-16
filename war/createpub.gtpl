@@ -51,7 +51,11 @@ Released   : 20110306
 					<p>This is <strong>Green Forest  </strong>, a free, fully standards-compliant CSS template designed by FreeCssTemplates<a href="http://www.nodethirtythree.com/"></a> for <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.  This free template is released under a <a href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attributions 2.5</a> license, so you’re pretty much free to do whatever you want with it (even use it commercially) provided you keep the links in the footer intact. Aside from that, have fun with it :)</p>
 					<p>Welcome to Green Forest. Please enter a bunch of dummy data in the form below.</p>
 					<br />
-					<form method="post" action="/createpub.groovy">
+					<form action="${blobstore.createUploadUrl('/uploadBlob.groovy')}" 
+			                method="post" enctype="multipart/form-data">
+			            <p>
+				          <label>Cover:</label>
+			              <input type="file" name="cover">
                        <p>
 	                      <label>Title:</label>
                           <input type="text" name="title" />
