@@ -57,6 +57,10 @@ Released   : 20110306
 				          <label>Cover:</label>
 			              <input type="file" name="cover">
                        <p>
+				       <p>
+					          <label>File (PDF):</label>
+				              <input type="file" name="pdf">
+	                       <p>
 	                      <label>Title:</label>
                           <input type="text" name="title" />
                        </p>
