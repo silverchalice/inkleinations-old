@@ -69,6 +69,10 @@ Released   : 20110306
                           <input type="text" name="author" />
                        </p>
                        <p>
+                          <label>Description:</label>
+                          <textarea name="description"></textarea>
+                       </p>
+                       <p>
 					      <input type="submit" value="Submit" />
 					   </p>
 					</form>
