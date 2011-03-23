@@ -12,4 +12,6 @@ get "/failure", forward: "/failure.gtpl"
 
 get "/new_publication", forward: "/createpub.gtpl"
 get "/publication/@id", forward: "/viewpub.groovy?id=@id"
+get "/edit_publication/@id", forward: "/editpub.groovy?id=@id"
+get "/download_pdf/@id", redirect: "/viewpdf.groovy?id=@id"
 get "/publishing", forward: "/listpub.groovy"
