@@ -10,6 +10,7 @@ response.status = 302
 def publication = new Entity("publication")
 publication.title = params.title
 publication.author = params.author
+publication.description = params.description
 publication.coverKey = blobKey1.keyString
 publication.pdfKey = blobKey2.keyString
 
