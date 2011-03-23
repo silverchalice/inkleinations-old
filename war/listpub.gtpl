@@ -16,7 +16,7 @@
 						         <a href="/download_pdf/${publication.key.id}"><img src="/image.groovy?key=${publication.coverKey}" height="269" width="180" border="0" style="margin-right:10px;" /></a>                                       
 						     </td> 
 						     <td><p><a href="/download_pdf/${publication.key.id}"><strong>${publication.title}</strong></a></p> 
-						         Today's world is enamoured with tales that never happened and heroes that never existed. Children are encouraged to use their imagination to create their own reality. Is it right for God's people, claiming to believe in absolute truth, to find pleasure in lies? Does truth matter anymore? <br />
+						         ${publication.description} <br />
 						By ${publication.author}.
 						<br /> 
 						16 pages.
