@@ -13,13 +13,13 @@
 					 <% publications.each { publication -> %>
                          <tr> 
                              <td> 
-						         <a href="/download_pdf/${publication.key.id}"><img src="/image.groovy?key=${publication.coverKey}" height="269" width="180" border="0" style="margin-right:10px;" /></a>                                       
+						         <a href="/pdf/${publication.key.id}"><img src="/image.groovy?key=${publication.coverKey}" height="269" width="180" border="0" style="margin-right:10px;" /></a>                                       
 						     </td> 
-						     <td><p><a href="/download_pdf/${publication.key.id}"><strong>${publication.title}</strong></a></p> 
+						     <td><p><a href="/pdf/${publication.key.id}"><strong>${publication.title}</strong></a></p> 
 						         ${publication.description} <br />
 						By ${publication.author}.
 						<br /> 
-						16 pages.
+						${publication.pageCount} pages.
 						      </p>
 							  <p>&nbsp;</p>
 							  <p>&nbsp;</p>

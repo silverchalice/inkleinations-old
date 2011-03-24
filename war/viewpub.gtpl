@@ -58,7 +58,7 @@ Released   : 20110306
 					  </tr>
 					 <tr>
 					    <td><img src="/image.groovy?key=${publication.coverKey}" height="347" width="260" /></td>
-					    <td><a href="/download_pdf/${publication.key.id}">PDF</a></td>
+					    <td><a href="/pdf/${publication.key.id}">PDF</a></td>
 						<td>${publication.title} </td>
 						<td>${publication.author}</td>
 					  </tr>
