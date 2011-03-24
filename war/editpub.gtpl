@@ -58,14 +58,22 @@ Released   : 20110306
 				       <p>
 					          <label>File (PDF):</label>
 				              <input type="file" name="pdf">
+		                       <p>
+		                      <label>Title:</label>
+	                          <input type="text" name="title" value="${publication.title}" />
+	                       </p>
 	                       <p>
-	                      <label>Title:</label>
-                          <input type="text" name="title" value="${publication.title}" />
-                       </p>
-                       <p>
-                          <label>Author:</label>
-                          <input type="text" name="author" value="${publication.author}" />
-                       </p>
+	                          <label>Author:</label>
+	                          <input type="text" name="author" value="${publication.author}" />
+	                       </p>
+	                       <p>
+	                          <label>Page count:</label>
+	                          <input type="text" name="pageCount" value="${publication.pageCount}" />
+	                       </p>
+	                       <p>
+	                          <label>Description:</label>
+	                          <textarea name="description">${publication.description}</textarea>
+	                       </p>
                        <p>
                           <input type="hidden" name="id" value="${publication.key.id}" />
                        </p>
