@@ -20,6 +20,8 @@ if (params["id"]) {
 
    publication.title = params.title
    publication.author = params.author
+   publication.pageCount = params.pageCount
+   publication.description = params.description
 
    if(blobKey1){
      publication.coverKey = blobKey1.keyString
