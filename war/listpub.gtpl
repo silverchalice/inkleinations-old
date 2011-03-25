@@ -6,7 +6,8 @@
 			<div class="post">
 				<div class="entry">					
 					<div class="info">
-					 <h2>Publication</h2><br />
+					 <h2>Stuff We've Published</h2>
+					 <p>&nbsp;</p>
 					 </div>
 
 					<table>
@@ -19,7 +20,8 @@
 						         ${publication.description} <br />
 						By ${publication.author}.
 						<br /> 
-						${publication.pageCount} pages.
+						${publication.pageCount} pages.<br />
+						<br /><a href="/edit_publication/${publication.key.id}">[edit]</a>
 						      </p>
 							  <p>&nbsp;</p>
 							  <p>&nbsp;</p>
